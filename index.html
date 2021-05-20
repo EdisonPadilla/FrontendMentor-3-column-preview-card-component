@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="style_index.css" />
+
+    <title>Frontend Mentor | 3-column preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="caja-sections">
+        <section id="section-sedans">
+          <figure class="caja-icon">
+            <img src="images/icon-sedans.svg" alt="icono de sedans" />
+          </figure>
+          <h1 class="titulo">SEDANS</h1>
+          <p class="parrafo">
+            Choose a sedan for its affordability and excellent fuel economy.
+            Ideal for cruising in the city or on your next road trip.
+          </p>
+          <form action="#">
+            <button type="button" id="btn-sedans" class="btn-learnMore">
+              Learn more
+            </button>
+          </form>
+        </section>
+
+        <section id="section-suvs">
+          <figure class="caja-icon">
+            <img src="images/icon-suvs.svg" alt="icono de suvs" />
+          </figure>
+          <h1 class="titulo">SUVS</h1>
+          <p class="parrafo">
+            Take an SUV for its spacious interior, power, and versatility.
+            Perfect for your next family vacation and off-road adventures.
+          </p>
+          <form action="#">
+            <button type="button" id="btn-suvs" class="btn-learnMore">
+              Learn more
+            </button>
+          </form>
+        </section>
+
+        <section id="section-luxury">
+          <figure class="caja-icon">
+            <img src="images/icon-luxury.svg" alt="icono de luxury cruise" />
+          </figure>
+          <h1 class="titulo">LUXURY</h1>
+          <p class="parrafo">
+            Cruise in the best car brands without the bloated prices. Enjoy the
+            enhanced comfort of a luxury rental and arrive in style.
+          </p>
+          <form action="#">
+            <button type="button" id="btn-luxury" class="btn-learnMore">
+              Learn more
+            </button>
+          </form>
+        </section>
+      </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Edison Padilla</a>.
+      </div>
+    </main>
+  </body>
+</html>

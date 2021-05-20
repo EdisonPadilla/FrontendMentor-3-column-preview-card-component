@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+:root {
+  --bg_Head_Buttons-color: hsl(0, 0%, 95%);
+  --parrafos-texto-color: hsla(0, 0%, 100%, 0.75);
+  --sedans-color: hsl(31, 77%, 52%);
+  --suvs-color: hsl(184, 100%, 22%);
+  --luxury-color: hsl(179, 100%, 13%);
+}
+
+body {
+  background-color: var(--bg_Head_Buttons-color);
+  font-size: 15px;
+  font-family: "Big Shoulders Display", cursive;
+  line-height: 1.5;
+  margin: 0px;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.caja-sections {
+  overflow: hidden;
+  height: 420px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(calc(720px / 3), calc(750px / 3)));
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+section {
+  padding: 40px 40px 0px 40px;
+}
+
+#section-sedans {
+  background-color: var(--sedans-color);
+}
+
+#section-suvs {
+  background-color: var(--suvs-color);
+}
+
+#section-luxury {
+  background-color: var(--luxury-color);
+}
+
+.caja-icon {
+  margin: 0px;
+}
+
+.caja-icon img {
+  max-width: 100%;
+  height: auto;
+}
+
+.titulo {
+  font-family: "Lexend Deca", sans-serif;
+  color: var(--bg_Head_Buttons-color);
+}
+
+.parrafo {
+  margin: 0px 0px 64px 0px;
+  color: var(--parrafos-texto-color);
+  letter-spacing: 0.5px;
+}
+
+form {
+  margin-bottom: 40px;
+}
+
+.btn-learnMore {
+  padding: 10px 24px;
+  background-color: var(--bg_Head_Buttons-color);
+  border: solid 2px var(--bg_Head_Buttons-color);
+  border-radius: 25px;
+  font-size: inherit;
+  font-family: inherit;
+  text-align: center;
+}
+
+#btn-sedans {
+  color: var(--sedans-color);
+  transition-duration: 0.7s;
+}
+
+#btn-sedans:hover {
+  background-color: var(--sedans-color);
+  color: var(--bg_Head_Buttons-color);
+}
+
+#btn-suvs {
+  color: var(--suvs-color);
+  transition-duration: 0.7s;
+}
+
+#btn-suvs:hover {
+  background-color: var(--suvs-color);
+  color: var(--bg_Head_Buttons-color);
+}
+
+#btn-luxury {
+  color: var(--luxury-color);
+  transition-duration: 0.7s;
+}
+
+#btn-luxury:hover {
+  background-color: var(--luxury-color);
+  color: var(--bg_Head_Buttons-color);
+}
+
+.attribution {
+  font-size: 15px !important;
+  letter-spacing: 0.5px !important;
+}
+
+.attribution a {
+  text-decoration: none;
+  border-bottom: solid 2px transparent;
+}
+
+.attribution a:hover {
+  color: var(--suvs-color);
+  border-color: var(--suvs-color);
+}
+
+@media (max-width: 375px) {
+  body {
+    height: 100%;
+    margin: 10px;
+  }
+
+  main {
+    height: auto;
+    padding: 40px 6px;
+  }
+
+  .caja-sections {
+    height: 100%;
+    grid-template-columns: none;
+    grid-template-rows: repeat(3, calc(100% / 3));
+  }
+}
