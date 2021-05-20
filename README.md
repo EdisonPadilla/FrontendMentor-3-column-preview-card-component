@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](screenshot-solutions\screenshot-desktop-solution.png)
-![](screenshot-solutions\screenshot-mobile-solution.png)
+![](screenshot-solutions/screenshot-desktop-solution.png)
+![](screenshot-solutions/screenshot-mobile-solution.png)
 
 ### Links
 
