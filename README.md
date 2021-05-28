@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/EdisonPadilla/FrontendMentor-3-column-preview-card-component.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [repository solution](https://github.com/EdisonPadilla/FrontendMentor-3-column-preview-card-component.git)
+- Live Site URL: [live site](https://your-live-site-url.com)
 
 ## My process
 
